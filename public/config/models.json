@@ -152,8 +152,16 @@
       "toolCallType": "native"
     },
     {
-      "id": "<OPENAI_COMPATIBLE_MODEL>",
-      "name": "<OPENAI_COMPATIBLE_MODEL>",
+      "id": "openai/gpt-4o-mini",
+      "name": "GPT-4o-mini (OpenRouter)",
+      "provider": "OpenAI Compatible",
+      "providerId": "openai-compatible",
+      "enabled": true,
+      "toolCallType": "native"
+    },
+    {
+      "id": "deepseek/deepseek-chat-v3-0324:free",
+      "name": "DeepSeek V3 0324 (free) (OpenRouter)",
       "provider": "OpenAI Compatible",
       "providerId": "openai-compatible",
       "enabled": true,

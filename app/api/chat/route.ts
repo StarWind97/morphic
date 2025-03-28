@@ -6,6 +6,15 @@ import { cookies } from 'next/headers'
 
 export const maxDuration = 30
 
+// const DEFAULT_MODEL: Model = {
+//   id: 'gpt-4o-mini',
+//   name: 'GPT-4o mini',
+//   provider: 'OpenAI',
+//   providerId: 'openai',
+//   enabled: true,
+//   toolCallType: 'native'
+// }
+//这里难道不会从public/config/models.json中获取默认模型吗？
 const DEFAULT_MODEL: Model = {
   id: 'gpt-4o-mini',
   name: 'GPT-4o mini',
